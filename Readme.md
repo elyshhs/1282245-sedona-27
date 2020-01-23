@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Эльвира Шушкова](https://up.htmlacademy.ru/htmlcss/27/user/1282245).
-* Наставник: [Елена Ордова](https://htmlacademy.ru/profile/oelena)
+* Наставник: [Елена Ордина](https://htmlacademy.ru/profile/oelena)
 
 ---
 
