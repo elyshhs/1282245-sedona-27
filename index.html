@@ -21,6 +21,7 @@
     </nav>
   </header>
   <main>
+
     <h1 class="visually-hiden">Седона</h1>
     <div>
       <img src="img/welcome.svg" width="459" height="353" alt="Природа">
@@ -108,8 +109,29 @@
         и мы покажем вам лучшие предложения в Седоне</p>
       <button type="button">Поиск гостиницы в Седоне</button>
       <form action="https://echo.htmlacademy.ru" method="post">
-        <div>
-        </div>
+        <p>
+          <label for="check-in">Дата заезда:</label>
+          <input id="check-in" type="text" name="check-in" value="24 апреля 2017">
+          <button type="button" aria-label="Календарь"></button>
+        </p>
+        <p>
+          <label for="check-out">Дата выезда:</label>
+          <input id="check-out" type="text" name="check-out" value="4 июля 2017">
+          <button type="button" aria-label="Календарь"></button>
+        </p>
+        <p>
+          <label for="adults">Взрослые:</label>
+          <button type="button" aria-label="Меньше"></button>
+          <input id="adults" type="text" name="date" value="2">
+          <button type="button" aria-label="Больше"></button>
+        </p>
+        <p>
+          <label for="children">Дети:</label>
+          <button type="button" aria-label="Меньше"></button>
+          <input id="children" type="text" name="date" value="0">
+          <button type="button" aria-label="Больше"></button>
+        </p>
+        <button type="submit">Найти</button>
       </form>
       <img src="img/map.png" width="1200" height="593" alt="Карта">
     </section>
@@ -121,16 +143,9 @@
     </p>
     <div>
       <ul>
-        <li><a href="#">Твиттер
-            <img src="img/t.svg" alt="Логотип Твитер">
-          </a></li>
-
-        <li><a href="#">Фейсбук
-            <img src="img/fb-icon.svg" alt="Логотип Фейсбук">
-          </a></li>
-        <li><a href="#">Ютуб
-            <img src="img/youtube.svg" alt="Логотип Ютуб">
-          </a></li>
+        <li><a href=""><img src="img/t.svg" alt="Логотип Твитер"></a></li>
+        <li><a href=""><img src="img/fb-icon.svg" alt="Логотип Фейсбук"></a></li>
+        <li><a href=""><img src="img/youtube.svg" alt="Логотип Ютуб"></a></li>
       </ul>
     </div>
     <p>
