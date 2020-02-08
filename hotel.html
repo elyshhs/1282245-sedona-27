@@ -23,9 +23,66 @@
   <main>
     <section>
       <h2 class="visually-hidden">Выбор жилья</h2>
-      <img src="img/icon-up-dir.svg" width="11" height="10" alt="Стрелка вверх">
-      <img src="img/icon-down-dir.svg" width="11" height="10" alt="Стрелка вниз">
+      <h1 class="visually-hidden">Поиск жилья в Седоне</h1>
+      <h2 class="visually-hidden">Фильтр по поиску жилья</h2>
+      <form action="https://echo.htmlacademy.ru" method="post">
+        <div>
+          <h3 class="visually-hidden">Инфраструктура</h3>
+          <ul>
+            <li>
+              <label for="filter-pool">Бассейн</label>
+              <input type="checkbox" name="pool" id="filter-poll" checked>
+            </li>
+            <li>
+              <label for="filter-parking">Паркинг</label>
+              <input type="checkbox" name="parking" id="filter-parking">
+            </li>
+            <li>
+              <label for="filter-wi-fi">WI-FI-</label>
+              <input type="checkbox" name="wi-fi" id="filter-wi-fi">
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="visually-hidden">Тип жилья</h3>
+          <ul>
+            <li>
+              <label for="filter-hotel">Гостиница</label>
+              <input type="checkbox" name="hotel" id="filter-hotel" checked>
+            </li>
+            <li>
+              <label for="filter-motel">Мотель</label>
+              <input type="checkbox" name="motel" id="filter-motel" checked>
+            </li>
+            <li>
+              <label for="filter-apartment">Апартаменты</label>
+              <input type="checkbox" name="apartment" id="filter-apartment" checked>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3>Стоимость в сутки (Р)</h3>
+          <input type="number" placeholder="от 0">
+          <input type="number" placeholder="до 3000"><br>
+          <input type="range" id="placeholder" name="placeholder" step="1">
+        </div>
+        <div>
+          <button type="button" aria-label="Задать минимальную стоимость"></button>
+          <button type="button" aria-label="Задать максимальную стоимость"></button>
+        </div>
+        <button type="submit">Показать</button>
+      </form>
     </section>
+    <p>Найдено: 3</p>
+    <p>Сортировать:</p>
+    <ul>
+      <li><a href="#">По цене</a></li>
+      <li><a href="#">По типу</a></li>
+      <li><a href="#">По рейтингу</a></li>
+
+      <li><a href="#"></a>кнопка вверх</li>
+      <li><a href="#"></a>кнопка вниз</li>
+    </ul>
     <section>
       <h2 class="visually-hidden">Список гостиниц</h2>
       <ul>
@@ -78,9 +135,9 @@
     </p>
     <div>
       <ul>
-        <li><a href="#">Твиттер</a></li>
-        <li><a href="#">Фейсбук</a></li>
-        <li><a href="#">Ютуб</a></li>
+        <li><a href="" aria-label="Логотип Твитер"></a></li>
+        <li><a href="" aria-label="Логотип Фейсбук"></a></li>
+        <li><a href="" aria-label="Логотип Ютуб"></a></li>
       </ul>
     </div>
     <p>
