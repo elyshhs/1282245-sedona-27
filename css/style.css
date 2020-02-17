@@ -11,6 +11,7 @@ body {
   color: #000000;
   background-color: #f2f2f2;
   text-align: center;
+  vertical-align: middle;
 }
 
 a {
@@ -35,13 +36,14 @@ a {
   font-size: 14px;
   line-height: 26px;
   font-weight: 700;
-  color: #000000;
   background-color: #ffffff;
+  color: #000000;
 }
 
 .site-navigation {
-  margin: 0;
   padding: 0;
+  margin: 0;
+  list-style: none;
   background-color: #ffffff;
 }
 
@@ -49,25 +51,24 @@ a {
   color: #000000;
 }
 
-.site-navigation a:hover {
-  /*что ховер, а что фокус?*/
+.site-navigation a:hover,
+.site-navigation a:focus {
   color: #81b3d2;
 }
 
-.site-navigation a:focus {
+.site-navigation a:active {
   color: rgba(0, 0, 0, 0.3);
 }
 
-.site-navigation a:active {
-  color: #766357;
+.site-navigation .active {
+  color: #766357
 }
 
-.logo {
-  background-image: : url("img/logo.svg");
-}
-
-.welcome {
-  background-image: : url("img/welcome.svg");
+.welcome. {
+  margin: 0;
+  padding: 0;
+  background: url("../img/background.jpg") no-repert center;
+  background-color: #ffffff;
 }
 
 .slogan {
@@ -75,61 +76,72 @@ a {
   background-color: #ffffff;
 }
 
-.slogan-title {
-  font-size: 21px;
+.slogan h3 {
+  font-size: 23px;
   line-height: 26px;
-  font-weight: 700;
+  font-size: 700;
 }
 
-.slogan-text {
+.slogan p {
+  font: inherit;
   font-size: 14px;
   line-height: 26px;
   font-weight: 400;
 }
 
 .advantages-list {
-  margin: 0;
   padding: 0;
+  margin: 0;
   list-style: none;
 }
 
-.advantages-one {
-  background-color: #ffffff;
-}
-
-.advantages-title {
+.advantages-one h3 {
   font-size: 21px;
   line-height: 21px;
   font-weight: 700;
 }
 
-.advantages-text {
-  font: inherit;
-  color: rgb(51, 51, 51);
+.advantages-one .fon-blue {
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+  background-color: #81b3d2;
 }
 
-.advantages-two {
-  background-color: #ffffff;
+.advantages-one .picture {
+  padding: 0;
+  margin: 0;
 }
 
-.icon {}
+.advantages-item {}
+}
+
+.interest {
+  padding: 0;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+}
 
 .search {
   margin: 0;
   padding: 0;
+  text-align: center;
+  background-color: #ffffff;
 }
 
-.search-button {
+.search-hotel {
   margin: 0;
   padding: 0;
-  background-color: #ffffff;
+  background-color: #fffff;
   text-align: center;
 }
 
 .interest {
+  padding: 0;
+  font-weight: 700;
   font-size: 30px;
   line-height: 36px;
-  font-weight: 700;
 }
 
 .search-data {
@@ -141,8 +153,6 @@ a {
 .button {
   margin: 0;
   padding: 0;
-  border: none;
-  text-transform: uppercase;
   background-color: #766357;
   color: #ffffff;
   font-size: 21px;
@@ -156,50 +166,200 @@ a {
 
 .button:active {
   background-color: #503e33;
-  color: rgda(255, 255, 255, 0.3);
 }
 
-.modal {
+.search-form {
   background-color: #ffffff;
   text-align: center;
 }
-.button-search{
+
+.date-check-in {
+  font-size:
+    line-height:26px;
+  font-weight: 700;
+}
+
+.date-check-out {
+  font-size:
+    line-height:26px;
+  font-weight: 700;
+}
+
+.data {
+  background-color: #ffffff;
+}
+
+.data:hover, .data:focus {
+  background-color: #ebebeb;
+}
+
+.data:active {
+  background-color: #ffffff;
+}
+
+.total {
+  font: inherit;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.form-button {
+  font-size: 21px;
+  font-weight: 700;
+  text-align: center;
   background-color: #81b3d2;
   color: #ffffff;
-  font-size: 21px;
-  line-height: 26px;
-  font-size: 700;
 }
-.data-check-in{
-  font-size: 14px;
-  line-height: 26px;
-  font-weight: 700;
-}
-.data-check-out{
-  font-size: 14px;
-  line-height: 26px;
-  font-weight: 700;
 
+.form-button:hover, .form-button:focus {
+  background-color: #669ec0;
 }
-/*добавить класс для кнопок с выбором даты, актив и т.д*/
-.number{
-  font-size: 14px;
-  fonts-height: 26px;
-  font-weight: 700;
+
+.form-button:active {
+  background-color: #5496bd;
+  color: rgba(255, 255, 255, 0.3)
 }
-.map{
-  background-color: #cbdda9;
-  background-image: : url("img/map.png");
+
+.map {
+  background: url("../img/map.jpg") background-color: #cbdda9;
 }
-.main-footer{
-  color: #000000;
-  background-color: rgba(249, 251, 546, 0.9);
-}
-.footer-mark{
+
+.footer-mark a {
   font-size: 21px;
   line-height: 26px;
-  font-weight: 700px;
+  font-weight: 700;
+  color: #000000;
 }
-.footer-social{}
-  .social-button{
-    background-color: #81b3d2;
+
+.social-button {
+  background-color: #81b3d2;
+}
+
+.social-button:hover, .social-button:focus {
+  background-color: #669ec0;
+}
+
+.social-button:active {
+  background-color: #5496bd;
+}
+
+.footer-social {
+  list-style: none;
+}
+
+.footer-copyright a {
+  font-size: 14px;
+}
+
+/*hotel.html*/
+.filter {
+  background: url("../img/filter_background.jpg") background-color: #7fa0c1;
+}
+
+.filter-item {
+  color: #ffffff;
+}
+
+.filter-item h3 {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 700;
+}
+
+.filter-item {
+  list-style: none;
+}
+
+.filter-price {
+  color: #ffffff;
+}
+
+.filter-price-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.filter-min-max {
+  background: #ffffff;
+}
+
+.button-show {
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.button-show:hover {
+  color: #000000;
+  background: #ffffff;
+}
+
+.found {
+  font-size: 21px;
+  font-weight: bolder;
+}
+
+.sorting {
+  background-color: #ffffff;
+}
+
+.found {
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.sorting-type {
+  font-size: 12px;
+}
+
+.sorting-item {
+  list-style: none;
+}
+
+.sorting-item a:hover, a:focus {
+  color: #81b3d2;
+  color="#cacaca"
+}
+
+.sorting-item a:active {
+  color: #000000;
+}
+
+.found {
+  list-style: none;
+}
+
+.hotel-choice {
+  list-style: none;
+}
+
+.hotel {
+  font-size: 21px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.hotel-choice {
+  list-style: none;
+}
+
+.hotel:hover, .hotel:focus {
+  color: #81b3d2;
+}
+
+.hotel:active {
+  color: #cacaca;
+}
+
+.rating {
+  color: #666666;
+  background-color: #f2f2f2;
+}
+
+.result-button {
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+}
