@@ -244,7 +244,7 @@ a {
   background-color: #5496bd;
 }
 
-.footer-social {
+.footer-social ul {
   list-style: none;
 }
 
@@ -267,7 +267,7 @@ a {
   font-weight: 700;
 }
 
-.filter-item {
+.filter-item ul {
   list-style: none;
 }
 
@@ -331,7 +331,7 @@ a {
   list-style: none;
 }
 
-.hotel-choice {
+.hotel-choice li {
   list-style: none;
 }
 
