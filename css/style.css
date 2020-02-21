@@ -53,8 +53,9 @@ a {
   min-height: 56px;
   display: flex;
 }
+
 .site-navigation li {
-width:
+  width:
 }
 
 .site-navigation a {
@@ -238,12 +239,12 @@ width:
 .map {
   background: url("../img/map.jpg") background-color: #cbdda9;
 }
+
 .main-footer {
   padding-left: 72px;
   padding-right: 72px;
   color: #000000;
-  background-color: rgba(249, 251, 546, 0.9)
-  display:flex;
+  background-color: rgba(249, 251, 546, 0.9) display:flex;
   width: 1056px;
   min-width: 120px;
   position: relative;
@@ -293,12 +294,15 @@ width:
   font-size: 14px;
   fill: #000000;
 }
+
 .footer-copyright a {
   margin-left: 30px;
 }
+
 .footer-copyright a:hover, a:focus {
   fill: #81b3d2;
 }
+
 .footer-copyright a:active {
   fill: #bdbbbc;
 }
@@ -408,6 +412,7 @@ width:
   color: #666666;
   background-color: #f2f2f2;
 }
+
 .result-button1 a {
   background-color: #81b3d2;
   color: #ffffff;
@@ -417,9 +422,11 @@ width:
   width: 142px;
   height: 27px;
 }
+
 .result-button1 a:hover, .result-button1 a:focus {
   background-color: #669ec0;
 }
+
 .result-button a:active {
   background-color: #5496bd;
   color: rgba(255, 255, 255, 0.3);
