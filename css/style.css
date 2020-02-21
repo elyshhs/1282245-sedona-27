@@ -31,14 +31,6 @@ a {
   overflow: hidden;
 }
 
-.main-header {
-  padding: 0;
-  margin: 0;
-  width: 1200px;
-  position: relative;
-  vertical-align: middle;
-}
-
 .main-navigation {
   margin: 0;
   padding-left: 72px;
@@ -60,8 +52,9 @@ a {
   width: 1056px;
   min-height: 56px;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+}
+.site-navigation li {
+width:
 }
 
 .site-navigation a {
@@ -81,43 +74,26 @@ a {
   color: #766357
 }
 
-.logo {
-  position: absolute;
-  left: 50%;
-  top: 0px;
-  transform: translate(-50%);
-}
-
 .welcome {
   margin: 0;
   padding: 0;
+  background-image: url("../img/welcome.jpg");
   width: 1200px;
   height: 508px;
   display: flex;
   border-color: #4176a1;
   position: relative;
-  background-image: image: url("../img/background.jpg") no-repert center;
-  align-content: center;
-  justify-content: center;
 }
-
-.welcome-image {}
 
 .slogan {
   margin: 0;
-  width: 1200px;
-  min-height: 218px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   background-color: #ffffff;
 }
 
 .slogan h3 {
-  font-size: 21px;
+  font-size: 23px;
   line-height: 26px;
   font-size: 700;
-  text-align: center;
 }
 
 .slogan p {
@@ -223,18 +199,6 @@ a {
   font-weight: 700;
 }
 
-.calendar {
-  fill: #cacaca;
-}
-
-.calendar:active {
-  fill: #81b3d2;
-}
-
-.calendar:hover, .calendar:focus {
-  fill: #000000;
-}
-
 .data {
   background-color: #ffffff;
 }
@@ -254,12 +218,6 @@ a {
   font-weight: 700;
 }
 
-.button-one:hover, .button-one:focus {
-  color: #000000;
-}
-.button-one:active {
-  color: #81b3d2;
-}
 .form-button {
   font-size: 21px;
   font-weight: 700;
@@ -280,12 +238,12 @@ a {
 .map {
   background: url("../img/map.jpg") background-color: #cbdda9;
 }
-
 .main-footer {
   padding-left: 72px;
   padding-right: 72px;
   color: #000000;
-  background-color: rgba(249, 251, 546, 0.9) display:flex;
+  background-color: rgba(249, 251, 546, 0.9)
+  display:flex;
   width: 1056px;
   min-width: 120px;
   position: relative;
@@ -331,25 +289,16 @@ a {
   list-style: none;
 }
 
-.footer-copyright {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .footer-copyright a {
   font-size: 14px;
   fill: #000000;
 }
-
 .footer-copyright a {
   margin-left: 30px;
 }
-
 .footer-copyright a:hover, a:focus {
   fill: #81b3d2;
 }
-
 .footer-copyright a:active {
   fill: #bdbbbc;
 }
@@ -398,155 +347,80 @@ a {
   background: #ffffff;
 }
 
-.sorting {
-  display: flex;
-  background-color: #ffffff;
-  width: 1200px;
+.found {
+  font-size: 21px;
+  font-weight: bolder;
 }
 
-.sorting h3 {
+.sorting {
+  background-color: #ffffff;
+}
+
+.found {
   font-size: 21px;
   font-weight: 700;
-  margin-right: 48px;
-  margin: 0;
 }
 
-.sorting p {
+.sorting-type {
   font-size: 12px;
-  margin: 0;
-  margin-left: 40px;
 }
 
-.sorting-items {
-  font-size: 12px;
-  padding: 0px;
-  margin: 0px;
-  display: flex;
+.sorting-item {
   list-style: none;
-  flex-grow: 1;
-  flex-wrap: wrap;
 }
 
-.sort-item {
-  margin-left: 35px;
-}
-
-.sorting-item a {
-  color: #b2b2b2;
-  border-bottom: 1px dashed #81b3d2;
-}
-
-.sorting-item a:hover, .sorting-item a:active {
+.sorting-item a:hover, a:focus {
   color: #81b3d2;
+  color="#cacaca"
 }
 
 .sorting-item a:active {
   color: #000000;
-  border-bottom: none;
 }
 
-.delta a {
-  fill: #cacaca;
-  margin-left: 5px;
-}
-
-.delta a:hover, .delta a:focus {
-  fill: #231f20;
-}
-
-.delta a:active {
-  fill: #81b3d2;
-}
-
-.hotels {
-  margin: 0;
-  padding-left: 72px;
-  padding-right: 72px;
-  background-color: #ffffff;
-  width: 1056px;
-  display: flex;
-}
-
-.hotels li {
+.found {
   list-style: none;
 }
 
-.hotels h3 {
-  margin: 0;
-  padding: 0;
-  color: #000000;
+.hotel-choice li {
+  list-style: none;
+}
+
+.hotel {
   font-size: 21px;
-  line-height: 26px;
-  font-weight: 700;
-}
-
-.hotels h3:active {
-  color: rgba(0, 0, 0, 0.3)
-}
-
-.hotels h3:hover, .hotels h3:focus {
-  color: #81b3d2:
-}
-
-.hotel-name {
-  font-size: 21px;
-  font-weight: 700;
+  font-weight: bold;
   color: #000000;
 }
 
-.hotel-name:hover, .hotel-name:focus {
-  color: #81b3b2;
+.hotel-choice {
+  list-style: none;
 }
 
-.hotel-name:active {
+.hotel:hover, .hotel:focus {
+  color: #81b3d2;
+}
+
+.hotel:active {
   color: #cacaca;
-}
-
-.one, .two {
-  padding: 0;
-  font-size: 14px;
-  line-height: 21px;
-}
-
-.one a {
-  font-size: 14px;
-  line-height: 21px;
-  font-style: 700;
-  color: #ffffff;
-  background-color: #81b3d2;
-  width: 110px;
-  height: 27px;
-}
-
-.one a:hover, .one a:focus {
-  background-color: #669ec0;
-}
-
-.one a:active {
-  background-color: #5496bd;
-  color: rgba(255, 255, 255, 0.3);
-}
-
-.two a {
-  font-size: 14px;
-  line-height: 21px;
-  font-style: 700;
-  color: #ffffff;
-  background-color: #766357;
-  width: 142px;
-  height: 27px;
-}
-
-.two a:hover, .two a:focus {
-  background-color: #604e43;
-}
-
-.two a:active {
-  background-color: #503e33;
-  color: rgba(255, 255, 255, 0.3);
 }
 
 .rating {
   color: #666666;
   background-color: #f2f2f2;
+}
+.result-button1 a {
+  background-color: #81b3d2;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  width: 142px;
+  height: 27px;
+}
+.result-button1 a:hover, .result-button1 a:focus {
+  background-color: #669ec0;
+}
+.result-button a:active {
+  background-color: #5496bd;
+  color: rgba(255, 255, 255, 0.3);
 }
