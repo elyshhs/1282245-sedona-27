@@ -81,7 +81,7 @@ a {
 }
 
 .site-navigation .active {
-  color: #766357
+  color: #766357;
 }
 
 .logo {
@@ -289,14 +289,15 @@ a {
 
 .form-button:active {
   background-color: #5496bd;
-  color: rgba(255, 255, 255, 0.3)
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .main-footer {
   padding-left: 72px;
   padding-right: 72px;
   color: #000000;
-  background-color: rgba(249, 251, 546, 0.9) display:flex;
+  background-color: rgba(249, 251, 546, 0.9);
+  display: flex;
   width: 1056px;
   min-width: 120px;
   position: relative;
@@ -351,7 +352,6 @@ a {
 
 .social-button:active {
   background-color: #5496bd;
-  opacity: 0.3;
 }
 
 .footer-social ul {
@@ -512,11 +512,11 @@ a {
 }
 
 .hotels h3:active {
-  color: rgba(0, 0, 0, 0.3)
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .hotels h3:hover, .hotels h3:focus {
-  color: #81b3d2:
+  color: #81b3d2;
 }
 
 .hotel-name {
