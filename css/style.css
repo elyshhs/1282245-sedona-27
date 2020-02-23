@@ -160,9 +160,7 @@ a {
   margin: 0;
 }
 
-.advantages-item {
-
-}
+.advantages-item {}
 
 .interest {
   padding: 0;
@@ -214,25 +212,12 @@ a {
 
 .button:active {
   background-color: #503e33;
-  color: #928a85;
-  opacity: 0.3;
+  color: rgba(255, 0, 0, 0.3);
 }
 
 .search-form {
   background-color: #ffffff;
   text-align: center;
-}
-
-.calendar {
-  fill: #cacaca;
-}
-
-.calendar:active {
-  fill: #81b3d2;
-}
-
-.calendar:hover, .calendar:focus {
-  fill: #000000;
 }
 
 .date-check-in {
@@ -360,7 +345,10 @@ a {
 
 .social-button:active {
   background-color: #5496bd;
-  opacity: 0.3;
+}
+.social-button:active svg {
+  fill(255, 255, 255, 0.3);
+
 }
 
 .footer-social ul {
