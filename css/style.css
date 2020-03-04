@@ -337,18 +337,7 @@ a {
 .form-button:active {
   background-color: #5496bd;
   color: rgba(255, 255, 255, 0.3);
-}
 
-.main-footer {
-  padding-left: 72px;
-  padding-right: 72px;
-  color: #000000;
-  background-color: rgba(249, 251, 546, 0.9);
-  display: flex;
-  width: 1056px;
-  min-width: 120px;
-  position: relative;
-  align-items: center;
 }
 
 .map {
@@ -357,60 +346,68 @@ a {
 }
 
 .main-footer {
-  padding-left: 72px;
-  padding-right: 72px;
+  width: 1200px;
+  min-height: 120px;
+  background-color: rgba(254, 254, 254, 0.9);
   color: #000000;
-  background-color: rgba(249, 251, 546, 0.9);
   display: flex;
-  width: 1056px;
-  min-width: 120px;
   position: relative;
   align-items: center;
 }
-
-.footer-mark a {
+.footer-index {
+  position: absolute;
+  bottom: 0;
+  z-index: 3;
+}
+.footer-mark {
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
-  color: #000000;
+  width: 400px;
+  padding-top: 4px;
 }
 
-.social-button {
+.footer-mark a {
+  display: block;
+  padding-left: 124px;
+  padding-bottom: 124px;
+}
+.footer-mark a:hover {
+  color: #81b3d2;
+}
+
+.footer-mark a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+.footer-social{
+  width: 400px;
+}
+.footer-social ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0;
+  width: 148px;
+}
+.social-button{
   background-color: #81b3d2;
   width: 46px;
   height: 48px;
-  margin: 3px;
-  fill: #ffffff;
-  display: flex;
-  flex-grow: 0;
   align-items: center;
   justify-content: center;
+  display: flex;
 }
-
 .social-button:hover, .social-button:focus {
   background-color: #669ec0;
-  width: 46px;
-  height: 48px;
-  margin: 3px;
-  fill: #ffffff;
-  display: flex;
-  flex-grow: 0;
-  align-items: center;
-  justify-content: center;
 }
-
 .social-button:active {
   background-color: #5496bd;
 }
-
 .social-button:active svg {
   fill(255, 255, 255, 0.3);
 }
-
-.footer-social ul {
-  list-style: none;
-}
-
 .footer-copyright {
   display: flex;
   align-items: center;
@@ -433,6 +430,26 @@ a {
 .footer-copyright a:active {
   fill: #bdbbbc;
 }
+.footer-copyright{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+}
+.footer-copyright span{
+  padding-left: 103px;
+  padding-right: 8px;
+  padding-bottom: 1px;
+}
+.footer-copyright a{
+  padding-top: 5px;
+}
+.footer-copyright a:hover, a:focus {
+  fill: #81b3d2;
+}
+  .footer-copyright a:active {
+    fill: #bdbbbc;
+  }
 
 /*hotel.html*/
 .filter {
