@@ -31,6 +31,14 @@ a {
   overflow: hidden;
 }
 
+.container {
+  padding: 0;
+  margin: 0 auto;
+  width: 1200px;
+  position: relative;
+  vertical-align: middle;
+}
+
 .main-header {
   padding: 0;
   margin: 0;
@@ -54,6 +62,7 @@ a {
 
 .site-navigation {
   margin: 0;
+  padding: 0;
   list-style: none;
   background-color: #ffffff;
   width: 1056px;
@@ -61,6 +70,22 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.site-navigation {
+  display: flex;
+}
+
+.site-navigation li {
+  margin-left: 147px;
+}
+
+.site-navigation li:nth-child(1) {
+  margin-left: 0px;
+}
+
+.site-navigation li:nth-child(3) {
+  margin-left: 395px;
 }
 
 .site-navigation a {
@@ -85,13 +110,17 @@ a {
   left: 50%;
   top: 0px;
   transform: translate(-50%);
+  width: 140px;
+  height: 70px;
+  z-index: 3;
+}
 }
 
 .welcome {
   margin: 0;
-  padding: 0;
+  padding-top: 76px;
   width: 1200px;
-  height: 508px;
+  height: 509px;
   display: flex;
   border-color: #4176a1;
   position: relative;
@@ -100,30 +129,54 @@ a {
   justify-content: center;
 }
 
+.welcome::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: auto;
+  /*width: 1200px;*/
+  height: 57px;
+  background: url("../img/polygon.png") no-repeat top center;
+  display: block;
+}
+
+.welcome .welcome-image {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2px;
+}
+
 .slogan {
-  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
   width: 1200px;
   min-height: 218px;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #ffffff;
+  justify-content: flex-start;
 }
-
 .slogan h3 {
+  width: 442px;
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
   text-align: center;
 }
-
 .slogan p {
+  width: 100%;
+  margin-top: 35px;
+  margin-bottom: 58px;
   font: inherit;
   font-size: 14px;
   line-height: 26px;
   font-weight: 400;
 }
-
 .calendar {
   fill: #cacaca;
 }
@@ -188,6 +241,9 @@ a {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
+  margin-bottom: 10px;
+  margin-top: 50px;
+
 }
 
 .search-data {
@@ -346,9 +402,9 @@ a {
 .social-button:active {
   background-color: #5496bd;
 }
+
 .social-button:active svg {
   fill(255, 255, 255, 0.3);
-
 }
 
 .footer-social ul {
