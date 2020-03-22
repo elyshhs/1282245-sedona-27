@@ -65,7 +65,7 @@ a {
   flex-direction: column-reverse;
 }
 
-.site-navigation  {
+.site-navigation {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -411,12 +411,12 @@ a {
   padding-top: 53px;
 }
 
-.date-check{
+.date-check {
   margin-bottom: 23px;
   cursor: pointer;
 }
 
-.date-check input{
+.date-check input {
   box-sizing: border-box;
   width: 347px;
   border: transparent;
@@ -428,27 +428,7 @@ a {
   color: #000000;
   text-transform: uppercase;
   background-color: #f2f2f2;
-
 }
-
-/*.date-check {
-  margin-bottom: 23px;
-  cursor: pointer;
-}
-
-.date-check input {
-  box-sizing: border-box;
-  width: 347px;
-  border-color: transparent;
-  padding-top: 13px;
-  padding-bottom: 10px;
-  padding-left: 13px;
-  font-size: 14px;
-  font-weight: 700;
-  color: #000000;
-  text-transform: uppercase;
-  background-color: #f2f2f2;
-}*/
 
 .date-check:first-of-type input {
   margin-left: 20px;
@@ -458,14 +438,12 @@ a {
   margin-left: 18px;
 }
 
-
 .button-calendar1 {
   position: absolute;
   top: 62px;
   right: 59px;
   border: none;
   background-color: transparent;
-
 }
 
 .button-calendar2 {
@@ -477,7 +455,7 @@ a {
 }
 
 .calendar-img {
-  fill:#cacaca;
+  fill: #cacaca;
 }
 
 .calendar-img:hover,
@@ -608,10 +586,10 @@ a {
   color: #88b6d1;
   background-color: #5496bd;
 }
-.search-form input[type='text']::placeholder{
-  color:#000000;
-}
 
+.search-form input[type='text']::placeholder {
+  color: #000000;
+}
 
 .map {
   background-color: #cbdda9;
